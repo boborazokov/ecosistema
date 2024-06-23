@@ -1,0 +1,28 @@
+.main {
+    background-color: #f6f6f6;
+    padding: 105px 150px 50px;
+    h1 {
+        font-size: 32px;
+        font-weight: 550;
+    }
+}
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    .main-wrapper {
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        margin-bottom: -15px;
+        p {
+            font-size: 16px;
+        }
+    }
+}
+.main-background {
+    background-color: #fff;
+    padding: 15px 20px 50px;
+    border-radius: 12px;
+    width: 30%;
+}

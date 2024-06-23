@@ -1,0 +1,70 @@
+.main {
+    background-color: #f6f6f6;
+    padding: 105px 150px 50px;
+    background-image: url(./grey\ building\ background.png);
+    background-repeat: no-repeat;
+    background-position: bottom left 150px;
+    h1 {
+        font-size: 32px;
+        font-weight: 500;
+    }
+}
+
+.main-container {
+    display: flex;
+    gap: 50px;
+    .main-wrapper {
+        width: 100%;
+        button {
+            background-color: #FFCC33;
+            border: none;
+            border-radius: 8px;
+            padding: 4px 12px;
+            font-size: 15px;
+            margin-right: 10px;
+            width: fit-content;
+        }
+        svg {
+            padding-top: 5px;
+        }
+    }
+}
+.main-info {
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    div {
+        margin-bottom: 40px;
+    }
+    .grey {
+        opacity: 0.6;
+        text-transform: uppercase;
+        font-size: 16px;
+        margin-bottom: -10px;
+    }
+}
+.main-date {
+    font-size: 16px;
+    width: 500px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    margin-top: 30px;
+    button {
+        border: 1px solid #F1EEEE;
+        border-radius: 10px;
+        width: 100%;
+        padding: 12px 24px;
+        margin-bottom: 5px;
+    }
+}
+p {
+    color: #000;
+}
+h4 {
+    opacity: 0.6;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: -10px;
+}

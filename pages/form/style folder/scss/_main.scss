@@ -1,0 +1,43 @@
+.main {
+    background-color: #f6f6f6;
+    padding: 105px 150px 50px;
+}
+.main-container {
+    background-color: #fff;
+    padding: 5px 40px;
+    border-radius: 12px;
+    margin: 50px 300px;
+    h1 {
+        font-size: 32px;
+        font-weight: 500;
+    }
+    form {
+        border-bottom: 0.5px solid #1B140014;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+        label {
+            color: #1B140066;
+            font-size: 12px;
+            text-transform: uppercase;
+        }
+        input, select, textarea {
+            color: #010504;
+            font-size: 14px;
+            padding: 8px 15px;
+            margin-bottom: 15px;
+            width: 100%;
+            border-radius: 8px;
+            border: 0.5px solid #E4E4E2;
+            background-color: #F6F6F6;
+        }
+    }
+    button {
+        background-color: #FFCC33;
+        width: 100%;
+        padding: 10px 50px;
+        border: none;
+        border-radius: 8px;
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+}

@@ -1,0 +1,60 @@
+.main {
+  padding: 100px 150px 0;
+  background-color: #f6f6f6;
+}
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0 70px;
+  h2 {
+    font-size: 32px;
+    font-weight: 550;
+  }
+  .main-paragraph {
+    font-size: 24px;
+    font-weight: 500;
+  }
+  .main-paragraph__grey {
+    font-size: 16px;
+    opacity: 0.6;
+  }
+}
+.main-numbers {
+  position: absolute;
+  left: 150px;
+  right: 150px;
+  margin-top: -70px;
+  padding: 20px 30px;
+  display: flex;
+  gap: 30px;
+  background-color: #ffcc33;
+  border-radius: 12px;
+  justify-content: center;
+  p {
+    text-align: center;
+    font-size: 16px;
+    opacity: 0.6;
+  }
+  .main-number {
+    margin: 5px 0 -5px;
+    font-size: 40px;
+    opacity: 1;
+  }
+}
+.background-white {
+  padding: 150px 150px 50px;
+  p {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 550;
+    padding-top: 30px;
+  }
+}
+.main-wrapper {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-image: url(../../img/city\ background.png);
+  background-position: center;
+  background-size: cover;
+}
